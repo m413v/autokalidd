@@ -1,0 +1,3 @@
+
+SUBSYSTEM=="usb", ACTION=="add", ENV{DEVTYPE}=="usb_device", ATTR{serial}=="013337XDXD133337", RUN="/tmp/test.sh"
+
